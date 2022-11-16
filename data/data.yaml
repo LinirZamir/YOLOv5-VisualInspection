@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Defect', 'Good Bolt', 'Missing Bolt', 'Wrong Bolt']
+
+roboflow:
+  workspace: project
+  project: wheels-yma76
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/project/wheels-yma76/dataset/1
